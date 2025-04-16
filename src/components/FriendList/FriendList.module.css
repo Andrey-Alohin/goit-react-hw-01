@@ -1,0 +1,60 @@
+.friendList {
+  list-style: none;
+  padding: 0;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.friendItem {
+  width: 120px;
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 2px solid #a3bad2;
+  box-shadow: 0 4px 6px rgba(17, 34, 54, 0.1);
+  text-align: center;
+  padding: 12px 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.friendItem:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(17, 34, 54, 0.2);
+}
+
+.friendImg {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.friendName {
+  font-size: 14px;
+  color: #112236;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.friendStatus {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.online {
+  background-color: #436280;
+  color: #28a745; /* зелений для онлайн */
+}
+
+.offline {
+  background-color: #a3bad2;
+  color: #e53e3e; /* червоний для офлайн */
+}
