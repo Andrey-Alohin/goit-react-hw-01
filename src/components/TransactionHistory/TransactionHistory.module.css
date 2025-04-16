@@ -1,0 +1,77 @@
+.transactionTable {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e3e3e3;
+}
+
+.transactionHead {
+  background-color: #112236;
+  color: #ffffff;
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+  border-bottom: 2px solid #e3e3e3;
+}
+
+.transactionHead th {
+  padding: 10px 15px;
+  font-size: 14px;
+  border-right: 1px solid #e3e3e3;
+}
+
+.transactionRow td {
+  padding: 10px 15px;
+  text-align: left;
+  font-size: 14px;
+  color: #112236;
+  border-bottom: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
+  text-transform: capitalize;
+}
+
+.invoice {
+  background-color: #436280;
+  color: #ffffff;
+}
+
+.invoice td {
+  background-color: #436280;
+  color: #ffffff;
+}
+
+.payment {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.payment td {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.withdrawal {
+  background-color: #e53e3e;
+  color: #ffffff;
+}
+
+.withdrawal td {
+  background-color: #e53e3e;
+  color: #ffffff;
+}
+
+/* Deposit */
+.deposit {
+  background-color: #ffc107;
+  color: #ffffff;
+}
+
+.deposit td {
+  background-color: #ffc107;
+  color: #ffffff;
+}
