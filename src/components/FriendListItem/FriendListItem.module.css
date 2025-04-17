@@ -1,0 +1,34 @@
+.friendImg {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.friendName {
+  font-size: 14px;
+  color: #112236;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.friendStatus {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.online {
+  background-color: #436280;
+  color: #28a745; /* зелений для онлайн */
+}
+
+.offline {
+  background-color: #a3bad2;
+  color: #e53e3e; /* червоний для офлайн */
+}
